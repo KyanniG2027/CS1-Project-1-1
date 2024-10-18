@@ -1,1 +1,59 @@
 
+
+
+p{
+    color:rgb(26, 143, 189)
+}
+
+h1,h2,h3{
+ font-family: sans-serif;
+ color:palevioletred;
+}
+
+h1{
+    text-align: center;
+    padding:10px;
+    margin:50px;
+    margin-bottom:60px;
+
+}
+
+body{
+  background-color: cornsilk;
+
+
+}
+
+
+
+/* Selecty elements by Class Name */
+.border{ 
+    border: 2px solid rgb(164, 26, 26);
+
+}
+
+/*Select unique element by ID NAME*/
+#intro {
+   background-color: rgb(224, 60, 169);
+}
+
+
+
+/*Box Model:margin,border,padding,context*/
+img{
+
+
+    border-width: 13px;
+    border-style: double;
+    border-color:lightpink;
+    border-radius: 35px;
+    padding: 5px;
+}  
+
+.centered{
+    margin: auto;
+    text-align: center;
+}
+
+
+
