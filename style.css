@@ -1,25 +1,32 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
 
 p{
-    color:rgb(26, 143, 189)
+    color:lightblue
 }
 
 h1,h2,h3{
- font-family: sans-serif;
- color:palevioletred;
+text-shadow:rgb(59, 211, 216) 3px 2px;
+ font-family: 'Times New Roman', Times, serif;
+ color:rgb(230, 51, 111);
 }
 
 h1{
+    border: 2px solid rgb(255, 255, 255);
     text-align: center;
     padding:10px;
     margin:50px;
     margin-bottom:60px;
-
+    background-color: rgb(49, 47, 44);
+    box-shadow: 15px 20px 5px 1px blue;
 }
 
 body{
   background-color: cornsilk;
+  font-family:"Playfair Display"
 
 
 }
@@ -27,8 +34,6 @@ body{
 
 
 /* Selecty elements by Class Name */
-.border{ 
-    border: 2px solid rgb(164, 26, 26);
 
 }
 
@@ -42,7 +47,7 @@ body{
 /*Box Model:margin,border,padding,context*/
 img{
 
-
+    
     border-width: 13px;
     border-style: double;
     border-color:lightpink;
@@ -51,8 +56,9 @@ img{
 }  
 
 .centered{
-    margin: auto;
     text-align: center;
+    margin: auto;
+   
 }
 
 
